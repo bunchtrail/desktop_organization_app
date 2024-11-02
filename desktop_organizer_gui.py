@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 from config_manager import load_config, save_config
 from monitor import start_monitoring
 from file_sorter import sort_desktop
@@ -13,8 +13,8 @@ class DesktopOrganizerGUI(tk.Tk):
         super().__init__()
         self.title("Организатор Рабочего Стола")
         self.configure(bg="#f0f0f0")
-        self.geometry("500x400")
-        self.resizable(False, False)
+        self.geometry("600x500")
+        self.resizable(True, True)  # позволяем изменение размеров окна
         
         self.config_data = load_config()
         self.monitor_thread = None
@@ -48,13 +48,13 @@ class DesktopOrganizerGUI(tk.Tk):
         rules_frame = ttk.LabelFrame(self, text="Правила сортировки", padding="10")
         rules_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
         
-        self.rules_tree = ttk.Treeview(rules_frame, columns=("type", "extension", "folder"), show="headings", height=5)
-        self.rules_tree.heading("type", text="Тип правила")
+        self.rules_tree = ttk.Treeview(rules_frame, columns=("type", "extension", "folder"), show="headings")
+        self.rules_tree.heading("type", text="Тип")
         self.rules_tree.heading("extension", text="Расширение")
         self.rules_tree.heading("folder", text="Папка назначения")
-        self.rules_tree.column("type", width=100, anchor=tk.CENTER)
+        self.rules_tree.column("type", width=80, anchor=tk.CENTER)
         self.rules_tree.column("extension", width=100, anchor=tk.CENTER)
-        self.rules_tree.column("folder", width=200, anchor=tk.CENTER)
+        self.rules_tree.column("folder", width=200, anchor=tk.W)
         self.rules_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         
         scrollbar = ttk.Scrollbar(rules_frame, orient=tk.VERTICAL, command=self.rules_tree.yview)
@@ -77,12 +77,22 @@ class DesktopOrganizerGUI(tk.Tk):
         interval_label = ttk.Label(settings_frame, text="Интервал проверки (сек):")
         interval_label.grid(row=0, column=0, sticky=tk.W, pady=5)
         
-        self.interval_var = tk.IntVar(value=self.config_data.get("check_interval", 300))
+        self.interval_var = tk.IntVar()
         self.interval_entry = ttk.Entry(settings_frame, textvariable=self.interval_var, width=10)
         self.interval_entry.grid(row=0, column=1, sticky=tk.W, pady=5)
         
         save_interval_button = ttk.Button(settings_frame, text="Сохранить интервал", command=self.save_interval, style='TButton')
         save_interval_button.grid(row=0, column=2, sticky=tk.W, pady=5, padx=5)
+
+        destination_label = ttk.Label(settings_frame, text="Директория для организованных файлов:")
+        destination_label.grid(row=1, column=0, sticky=tk.W, pady=5)
+
+        self.destination_var = tk.StringVar()
+        self.destination_entry = ttk.Entry(settings_frame, textvariable=self.destination_var, width=50)
+        self.destination_entry.grid(row=1, column=1, sticky=tk.W, pady=5, columnspan=2)
+
+        choose_dir_button = ttk.Button(settings_frame, text="Выбрать...", command=self.choose_destination_dir, style='TButton')
+        choose_dir_button.grid(row=1, column=3, sticky=tk.W, pady=5, padx=5)
         
         # Кнопки управления
         control_frame = ttk.Frame(self, padding="10")
@@ -107,6 +117,7 @@ class DesktopOrganizerGUI(tk.Tk):
             self.rules_tree.insert("", tk.END, values=(rule["type"], rule["extension"], rule["folder"]))
         
         self.interval_var.set(self.config_data.get("check_interval", 300))
+        self.destination_var.set(self.config_data.get("destination_dir", ""))
         
     def add_rule_popup(self):
         popup = tk.Toplevel(self)
@@ -183,13 +194,27 @@ class DesktopOrganizerGUI(tk.Tk):
         self.config_data['check_interval'] = interval_value
         save_config(self.config_data)
         messagebox.showinfo("Успех", f"Интервал проверки установлен на {interval_value} секунд.")
+
+    def choose_destination_dir(self):
+        chosen_dir = filedialog.askdirectory()
+        if chosen_dir:
+            self.destination_var.set(chosen_dir)
+            self.config_data['destination_dir'] = chosen_dir
+            save_config(self.config_data)
+            messagebox.showinfo("Успех", f"Директория для организованных файлов установлена: {chosen_dir}")
         
     def sort_desktop_now(self):
+        if not self.destination_var.get():
+            messagebox.showwarning("Внимание", "Пожалуйста, выберите директорию для организованных файлов.")
+            return
         sort_desktop()
         messagebox.showinfo("Успех", "Рабочий стол отсортирован.")
         
     def toggle_monitoring(self):
         if not self.monitoring:
+            if not self.destination_var.get():
+                messagebox.showwarning("Внимание", "Пожалуйста, выберите директорию для организованных файлов.")
+                return
             self.monitoring = True
             self.monitor_button.configure(text="Остановить мониторинг")
             self.status_label.configure(text="Статус: Мониторинг включён", foreground="#007AFF")
