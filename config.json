@@ -22,5 +22,6 @@
         }
     ],
     "check_interval": 300,
-    "log_level": "INFO"
+    "log_level": "INFO",
+    "destination_dir": "D:/"
 }

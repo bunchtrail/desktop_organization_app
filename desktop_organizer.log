@@ -14,3 +14,21 @@
 2024-11-02 13:22:50,942 [INFO] No files were moved. Desktop is already organized.
 2024-11-02 13:23:00,556 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
 2024-11-02 13:23:00,556 [INFO] No files were moved. Desktop is already organized.
+2024-11-02 13:24:55,532 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
+2024-11-02 13:24:55,533 [INFO] No files were moved. Desktop is already organized.
+2024-11-02 13:25:14,948 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
+2024-11-02 13:25:14,949 [INFO] Moved file '1649877820187722213.png' to 'C:\Users\79121\Desktop\Images'
+2024-11-02 13:25:14,949 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'C:\Users\79121\Desktop\Documents'
+2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'C:\Users\79121\Desktop\Images'
+2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'C:\Users\79121\Desktop\Images'
+2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'C:\Users\79121\Desktop\Images'
+2024-11-02 13:25:14,951 [INFO] Moved file 'Zombatar_1.jpg' to 'C:\Users\79121\Desktop\Images'
+2024-11-02 13:25:14,951 [INFO] Finished sorting process. 6 files moved.
+2024-11-02 13:30:41,908 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 13:30:41,910 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
+2024-11-02 13:30:41,935 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
+2024-11-02 13:30:41,938 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 13:30:41,939 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 13:30:41,940 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 13:30:41,940 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 13:30:41,941 [INFO] Finished sorting process. 6 files moved.
