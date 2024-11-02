@@ -1,0 +1,26 @@
+{
+    "sorting_rules": [
+        {
+            "type": "extension",
+            "extension": ".png",
+            "folder": "Images"
+        },
+        {
+            "type": "extension",
+            "extension": ".jpg",
+            "folder": "Images"
+        },
+        {
+            "type": "extension",
+            "extension": ".docx",
+            "folder": "Documents"
+        },
+        {
+            "type": "extension",
+            "extension": ".pdf",
+            "folder": "Documents"
+        }
+    ],
+    "check_interval": 300,
+    "log_level": "INFO"
+}
