@@ -68,3 +68,5 @@
 2024-11-02 14:41:54,335 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
 2024-11-02 14:41:54,982 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
 2024-11-02 14:41:54,982 [INFO] Finished sorting process. Moved 4 item(s).
+2024-11-02 15:03:24,890 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 15:03:24,891 [INFO] No files or folders were moved. Desktop is already organized.

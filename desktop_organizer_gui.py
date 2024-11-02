@@ -96,17 +96,14 @@ class DesktopOrganizerGUI(tk.Tk):
 
         # Настройки
         settings_frame = ttk.Frame(self.settings_tab, padding="10")
-        settings_frame.pack(fill=tk.X, expand=True)
+        settings_frame.pack(fill=tk.BOTH, expand=True)
 
         interval_label = ttk.Label(settings_frame, text="Интервал проверки (сек):")
         interval_label.grid(row=0, column=0, sticky=tk.W, pady=5)
-        
+
         self.interval_var = tk.IntVar()
         self.interval_entry = ttk.Entry(settings_frame, textvariable=self.interval_var, width=10)
         self.interval_entry.grid(row=0, column=1, sticky=tk.W, pady=5)
-        
-        save_interval_button = ttk.Button(settings_frame, text="Сохранить интервал", command=self.save_interval, style='TButton')
-        save_interval_button.grid(row=0, column=2, sticky=tk.W, pady=5, padx=5)
 
         destination_label = ttk.Label(settings_frame, text="Директория для организованных файлов:")
         destination_label.grid(row=1, column=0, sticky=tk.W, pady=5)
@@ -114,9 +111,6 @@ class DesktopOrganizerGUI(tk.Tk):
         self.destination_var = tk.StringVar()
         self.destination_entry = ttk.Entry(settings_frame, textvariable=self.destination_var, width=50)
         self.destination_entry.grid(row=1, column=1, sticky=tk.W, pady=5, columnspan=2)
-
-        choose_dir_button = ttk.Button(settings_frame, text="Выбрать...", command=self.choose_destination_dir, style='TButton')
-        choose_dir_button.grid(row=1, column=3, sticky=tk.W, pady=5, padx=5)
 
         # Настройка для обработки папок
         folder_shortcut_label = ttk.Label(settings_frame, text="Обработка папок без правил:")
@@ -132,8 +126,18 @@ class DesktopOrganizerGUI(tk.Tk):
         folder_mode_others_rb.pack(anchor=tk.W, pady=2)
         folder_mode_per_folder_rb.pack(anchor=tk.W, pady=2)
 
-        save_folder_mode_button = ttk.Button(settings_frame, text="Сохранить настройку папок", command=self.save_folder_mode, style='TButton')
-        save_folder_mode_button.grid(row=2, column=3, sticky=tk.W, pady=5, padx=5)
+        # Buttons Frame
+        buttons_frame = ttk.Frame(self.settings_tab, padding="10")
+        buttons_frame.pack(fill=tk.X, side=tk.BOTTOM)
+
+        save_interval_button = ttk.Button(buttons_frame, text="Сохранить интервал", command=self.save_interval, style='TButton')
+        save_interval_button.pack(side=tk.LEFT, padx=5, pady=10)
+
+        save_folder_mode_button = ttk.Button(buttons_frame, text="Сохранить настройку папок", command=self.save_folder_mode, style='TButton')
+        save_folder_mode_button.pack(side=tk.LEFT, padx=5, pady=10)
+
+        choose_dir_button = ttk.Button(buttons_frame, text="Выбрать директорию", command=self.choose_destination_dir, style='TButton')
+        choose_dir_button.pack(side=tk.LEFT, padx=5, pady=10)
 
     def create_history_tab(self):
         self.history_tab = ttk.Frame(self.notebook, padding="10")
