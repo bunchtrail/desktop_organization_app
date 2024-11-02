@@ -19,9 +19,35 @@
             "type": "extension",
             "extension": ".pdf",
             "folder": "Documents"
+        },
+        {
+            "type": "extension",
+            "extension": ".cmd",
+            "folder": "Scripts"
+        },
+        {
+            "type": "extension",
+            "extension": ".txt",
+            "folder": "TextFiles"
+        },
+        {
+            "type": "extension",
+            "extension": ".exe",
+            "folder": "Executables"
+        },
+        {
+            "type": "extension",
+            "extension": ".xcf",
+            "folder": "GIMP_Files"
+        },
+        {
+            "type": "extension",
+            "extension": ".bp1",
+            "folder": "BP1_Files"
         }
     ],
     "check_interval": 300,
     "log_level": "INFO",
-    "destination_dir": "D:/"
+    "destination_dir": "D:/",
+    "folder_shortcut_mode": "others"
 }

@@ -10,6 +10,7 @@ default_config = {
         {"type": "extension", "extension": ".docx", "folder": "Documents"},
         {"type": "extension", "extension": ".pdf", "folder": "Documents"}
     ],
+    "destination_dir": "",  # Путь к директории, где будет папка "desktop_organizer"
     "check_interval": 300,  # интервал проверки в секундах
     "log_level": "INFO"
 }

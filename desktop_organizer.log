@@ -1,100 +1,70 @@
-2024-11-02 13:17:29,758 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:17:29,759 [INFO] Moved file '1649877820187722213.png' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:17:29,759 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'C:\Users\79121\Desktop\Documents'
-2024-11-02 13:17:29,760 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:17:29,760 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:17:29,760 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:17:29,761 [INFO] Moved file 'Zombatar_1.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:17:29,761 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:20:57,574 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:20:57,575 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:21:02,339 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:21:02,340 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:22:50,941 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:22:50,942 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:23:00,556 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:23:00,556 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:24:55,532 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:24:55,533 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:25:14,948 [INFO] Starting sorting process on desktop: C:\Users\79121\Desktop
-2024-11-02 13:25:14,949 [INFO] Moved file '1649877820187722213.png' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:25:14,949 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'C:\Users\79121\Desktop\Documents'
-2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:25:14,950 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:25:14,951 [INFO] Moved file 'Zombatar_1.jpg' to 'C:\Users\79121\Desktop\Images'
-2024-11-02 13:25:14,951 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:30:41,908 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:30:41,910 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:30:41,935 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:30:41,938 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:30:41,939 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:30:41,940 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:30:41,940 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:30:41,941 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:34:59,633 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:34:59,635 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:34:59,653 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:34:59,656 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:34:59,657 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:34:59,657 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:34:59,658 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:34:59,658 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:36:38,837 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:36:38,837 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 13:37:44,551 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:37:44,553 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:37:44,571 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:37:44,574 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:37:44,575 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:37:44,575 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:37:44,576 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:37:44,576 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:38:18,052 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:38:18,053 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:38:18,071 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:38:18,073 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:38:18,073 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:38:18,074 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:38:18,075 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:38:18,075 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:41:48,702 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:41:48,704 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:41:48,723 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:41:48,727 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:41:48,728 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:41:48,728 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:41:48,729 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:41:48,729 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:43:10,234 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:43:10,235 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:43:10,251 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:43:10,254 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:43:10,255 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:43:10,255 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:43:10,255 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:43:10,255 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:46:37,402 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:46:37,403 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:46:37,421 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:46:37,424 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:46:37,424 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:46:37,425 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:46:37,426 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:46:37,426 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:49:32,558 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:49:32,560 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:49:32,577 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:49:32,579 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:49:32,580 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:49:32,580 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:49:32,581 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:49:32,581 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 13:53:22,436 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 13:53:22,437 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 13:53:22,454 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 13:53:22,458 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:53:22,459 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:53:22,460 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:53:22,460 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 13:53:22,461 [INFO] Finished sorting process. 6 files moved.
+2024-11-02 14:05:37,603 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:05:37,604 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
+2024-11-02 14:05:37,624 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
+2024-11-02 14:05:37,627 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:05:37,628 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:05:37,629 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:05:37,629 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:05:37,629 [INFO] Finished sorting process. 6 files moved.
+2024-11-02 14:09:31,300 [INFO] Файл откатан: D:/desktop_organizer\Images\1649877820187722213.png -> C:\Users\79121\Desktop\1649877820187722213.png
+2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Documents\Morgan_N__JavaScript_dlya_detej.pdf -> C:\Users\79121\Desktop\Morgan_N__JavaScript_dlya_detej.pdf
+2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-07-01_17-06-04.jpg -> C:\Users\79121\Desktop\photo_2024-07-01_17-06-04.jpg
+2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-09-12_18-17-34.jpg -> C:\Users\79121\Desktop\photo_2024-09-12_18-17-34.jpg
+2024-11-02 14:09:31,308 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-09-15_18-12-29.jpg -> C:\Users\79121\Desktop\photo_2024-09-15_18-12-29.jpg
+2024-11-02 14:09:31,309 [INFO] Файл откатан: D:/desktop_organizer\Images\Zombatar_1.jpg -> C:\Users\79121\Desktop\Zombatar_1.jpg
+2024-11-02 14:09:41,393 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:09:41,394 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
+2024-11-02 14:09:41,398 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
+2024-11-02 14:09:41,398 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:09:41,399 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:09:41,399 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:09:41,400 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
+2024-11-02 14:09:41,400 [INFO] Finished sorting process. 6 files moved.
+2024-11-02 14:12:00,315 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:12:00,315 [INFO] No files were moved. Desktop is already organized.
+2024-11-02 14:15:13,263 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:15:13,267 [INFO] Moved file '1649877820187722213.xcf' to 'D:/desktop_organizer\GIMP_Files'
+2024-11-02 14:15:13,282 [INFO] Moved file 'CookieCheats.txt' to 'D:/desktop_organizer\TextFiles'
+2024-11-02 14:15:13,284 [INFO] Moved file 'ctrld.txt' to 'D:/desktop_organizer\TextFiles'
+2024-11-02 14:15:13,286 [INFO] Moved file 'polina_v2.38.bp1' to 'D:/desktop_organizer\BP1_Files'
+2024-11-02 14:15:13,288 [INFO] Finished sorting process. 4 files moved.
+2024-11-02 14:27:53,149 [INFO] Файл откатан: D:/desktop_organizer\Images\1649877820187722213.png -> C:\Users\79121\Desktop\1649877820187722213.png
+2024-11-02 14:28:00,187 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:28:00,188 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
+2024-11-02 14:28:00,189 [INFO] Finished sorting process. 1 files moved.
+2024-11-02 14:34:28,076 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:34:28,130 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:34:28,143 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:34:28,147 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:34:28,757 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:34:28,757 [INFO] Finished sorting process. Moved 4 item(s).
+2024-11-02 14:35:22,784 [INFO] Объект откатан: D:/desktop_organizer\Others\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
+2024-11-02 14:40:29,017 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:40:29,057 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:40:29,057 [INFO] Finished sorting process. Moved 1 item(s).
+2024-11-02 14:40:46,154 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:40:46,206 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:40:46,207 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:40:46,210 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:40:46,586 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:40:46,586 [INFO] Finished sorting process. Moved 4 item(s).
+2024-11-02 14:41:25,725 [INFO] Объект откатан: D:/desktop_organizer\Others\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
+2024-11-02 14:41:25,725 [INFO] Объект откатан: D:/desktop_organizer\Others\desktop.ini -> C:\Users\79121\Desktop\desktop.ini
+2024-11-02 14:41:25,729 [INFO] Объект откатан: D:/desktop_organizer\Others\json -> C:\Users\79121\Desktop\json
+2024-11-02 14:41:27,223 [INFO] Объект откатан: D:/desktop_organizer\Others\pvm_root -> C:\Users\79121\Desktop\pvm_root
+2024-11-02 14:41:30,348 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:41:30,403 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Folder_CPLMouseFix'
+2024-11-02 14:41:30,408 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Folder_desktop.ini'
+2024-11-02 14:41:30,415 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Folder_json'
+2024-11-02 14:41:31,405 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Folder_pvm_root'
+2024-11-02 14:41:31,408 [INFO] Finished sorting process. Moved 4 item(s).
+2024-11-02 14:41:49,586 [INFO] Объект откатан: D:/desktop_organizer\Folder_CPLMouseFix\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
+2024-11-02 14:41:49,587 [INFO] Объект откатан: D:/desktop_organizer\Folder_desktop.ini\desktop.ini -> C:\Users\79121\Desktop\desktop.ini
+2024-11-02 14:41:49,592 [INFO] Объект откатан: D:/desktop_organizer\Folder_json\json -> C:\Users\79121\Desktop\json
+2024-11-02 14:41:50,530 [INFO] Объект откатан: D:/desktop_organizer\Folder_pvm_root\pvm_root -> C:\Users\79121\Desktop\pvm_root
+2024-11-02 14:41:54,272 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
+2024-11-02 14:41:54,331 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:41:54,332 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:41:54,335 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:41:54,982 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
+2024-11-02 14:41:54,982 [INFO] Finished sorting process. Moved 4 item(s).
