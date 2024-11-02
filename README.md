@@ -15,7 +15,7 @@
 
 1. **Склонируйте репозиторий**:
     ```bash
-    git clone https://github.com/username/desktop_organizer.git
+    git clone https://github.com/bunchtrail/desktop_organization_app.git
     ```
 2. **Установите зависимости** (необходим Python 3.6+):
     ```bash
