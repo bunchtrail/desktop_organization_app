@@ -1,3 +1,4 @@
+import time
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from config_manager import load_config, save_config

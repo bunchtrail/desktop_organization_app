@@ -1,6 +1,5 @@
 import os
 import shutil
-import time
 import pythoncom
 import win32com.client
 from config_manager import load_config
@@ -10,22 +9,27 @@ logger = get_logger(__name__)
 
 def create_shortcut(target_path, shortcut_path, description=""):
     """
-    Создает ярлык в Windows для target_path по указанному пути shortcut_path.
+    Создает ярлык в Windows, который открывает target_path (папку) с помощью проводника и параметра /e.
     """
     pythoncom.CoInitialize()
     shell = win32com.client.Dispatch("WScript.Shell")
     shortcut = shell.CreateShortCut(shortcut_path)
-    shortcut.Targetpath = target_path
-    shortcut.WindowStyle = 1
+    # Устанавливаем полный путь к explorer.exe
+    shortcut.TargetPath = r"C:\Windows\explorer.exe"
+    # Нормализуем путь, чтобы использовать обратные слеши
+    normalized_target = os.path.normpath(target_path)
+    # Устанавливаем аргументы с нужным форматом
+    shortcut.Arguments = f'/e,"{normalized_target}"'
     shortcut.Description = description
-    shortcut.save()
+    shortcut.IconLocation = "shell32.dll,3"  # Иконка для папки
+    shortcut.Save()
 
 def sort_desktop():
     config = load_config()
     sorting_rules = config.get("sorting_rules", [])
     destination_dir = config.get("destination_dir", "")
     if not destination_dir:
-        # Если директория назначения не выбрана пользователем, используем домашнюю папку пользователя
+        # Если директория назначения не выбрана пользователем, используем папку desktop_organizer в домашней папке
         destination_dir = os.path.join(os.path.expanduser('~'), "desktop_organizer")
 
     # Путь к рабочему столу
@@ -42,7 +46,7 @@ def sort_desktop():
     for filename in os.listdir(desktop_path):
         file_path = os.path.join(desktop_path, filename)
 
-        # Пропускаем системные файлы ярлыков и папки
+        # Пропускаем системные файлы ярлыков (с расширением .lnk) и любые папки
         if os.path.isfile(file_path) and not filename.lower().endswith(".lnk"):
             file_extension = os.path.splitext(filename)[1].lower()
 
