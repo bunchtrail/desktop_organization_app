@@ -222,7 +222,7 @@ class DesktopOrganizerGUI(tk.Tk):
     def add_rule_popup(self):
         popup = tk.Toplevel(self)
         popup.title("Добавить правило")
-        popup.geometry("300x200")
+        popup.geometry("300x250")
         popup.resizable(False, False)
         
         rule_type_label = ttk.Label(popup, text="Тип правила:")
