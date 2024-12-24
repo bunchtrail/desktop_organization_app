@@ -1,3 +1,9 @@
+"""
+Desktop Organization App
+Copyright (c) 2023 Desktop Organization App
+Licensed under the MIT License - see LICENSE file for details
+"""
+
 import os
 import time
 import tkinter as tk
@@ -318,7 +324,7 @@ class DesktopOrganizerGUI(tk.Tk):
         
     def sort_desktop_now(self):
         if not self.destination_var.get():
-            messagebox.showwarning("Внимание", "Пожалуйста, выберите директорию для организованных файлов.")
+            messagebox.showwarning("Вни��ание", "Пожалуйста, выберите директорию для организованных файлов.")
             return
         sort_desktop()
         messagebox.showinfo("Успех", "Рабочий стол отсортирован.")
