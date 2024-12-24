@@ -324,7 +324,7 @@ class DesktopOrganizerGUI(tk.Tk):
         
     def sort_desktop_now(self):
         if not self.destination_var.get():
-            messagebox.showwarning("Вни��ание", "Пожалуйста, выберите директорию для организованных файлов.")
+            messagebox.showwarning("Внимание", "Пожалуйста, выберите директорию для организованных файлов.")
             return
         sort_desktop()
         messagebox.showinfo("Успех", "Рабочий стол отсортирован.")
@@ -359,6 +359,11 @@ class DesktopOrganizerGUI(tk.Tk):
         history = load_history()
         self.history_tree.delete(*self.history_tree.get_children())
         
+        # Настройка стилей для дерева
+        style = ttk.Style()
+        style.configure("History.Treeview", font=('Consolas', 10))  # Моноширинный шрифт
+        self.history_tree.configure(style="History.Treeview")
+        
         for i, entry in enumerate(history):
             timestamp = entry["timestamp"]
             moved_files = entry["moved_files"]
@@ -372,17 +377,59 @@ class DesktopOrganizerGUI(tk.Tk):
                 grouped_files[folder_name].append((old_path, new_path))
             
             # Добавляем корневой элемент для каждой записи истории (по времени)
-            entry_id = self.history_tree.insert("", tk.END, iid=f"entry_{i}", values=(f"Операция {i+1} - {timestamp}", ""))
+            entry_id = self.history_tree.insert("", tk.END, iid=f"entry_{i}", 
+                                              values=(f"📅 Операция {i+1} - {timestamp}", ""))
             
+            # Добавляем категории и файлы с отступами
             for category, files in grouped_files.items():
-                # Добавляем узел категории
-                category_node_id = self.history_tree.insert(entry_id, tk.END, values=(f"Категория: {category}", f"Перемещено объектов: {len(files)}"))
+                # Добавляем узел категории с иконкой папки
+                category_node_id = self.history_tree.insert(entry_id, tk.END, 
+                    values=(f"    📁 {category} ({len(files)} файлов)", ""))
+                
+                # Добавляем файлы с дополнительным отступом и иконкой файла
                 for file_info in files:
                     old_path, new_path = file_info
-                    self.history_tree.insert(category_node_id, tk.END, values=(os.path.basename(new_path), f"{old_path} -> {new_path}"))
+                    file_name = os.path.basename(new_path)
+                    # Определяем иконку на основе расширения файла
+                    icon = self.get_file_icon(file_name)
+                    self.history_tree.insert(category_node_id, tk.END, 
+                        values=(f"        {icon} {file_name}", 
+                               f"🔄 {old_path} ➜ {new_path}"))
 
         # Восстановление состояния раскрытия дерева
         self.restore_expanded_nodes(self.history_tree, expanded_nodes)
+        
+        # Автоматически раскрываем все узлы для лучшей видимости
+        for item in self.history_tree.get_children():
+            self.history_tree.item(item, open=True)
+            for child in self.history_tree.get_children(item):
+                self.history_tree.item(child, open=True)
+
+    def get_file_icon(self, file_name):
+        """Возвращает иконку в зависимости от типа файла"""
+        ext = os.path.splitext(file_name)[1].lower()
+        icons = {
+            '.txt': '📄',    # текстовые файлы
+            '.doc': '📝',    # документы
+            '.docx': '📝',
+            '.pdf': '📕',    # PDF
+            '.jpg': '🖼️',    # изображения
+            '.jpeg': '🖼️',
+            '.png': '🖼️',
+            '.gif': '🖼️',
+            '.mp3': '🎵',    # аудио
+            '.wav': '🎵',
+            '.mp4': '🎬',    # видео
+            '.avi': '🎬',
+            '.zip': '📦',    # архивы
+            '.rar': '📦',
+            '.exe': '⚙️',    # исполняемые файлы
+            '.py': '🐍',     # Python файлы
+            '.js': '📜',     # JavaScript файлы
+            '.html': '🌐',   # веб-файлы
+            '.css': '🎨',
+        }
+        return icons.get(ext, '📄')  # если расширение не найдено, возвращаем стандартную иконку
 
     def revert_selected_history(self):
         selected_item = self.history_tree.selection()
