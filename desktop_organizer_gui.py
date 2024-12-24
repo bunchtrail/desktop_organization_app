@@ -26,14 +26,14 @@ class DesktopOrganizerGUI(tk.Tk):
         
         # Стили
         style = ttk.Style(self)
-        style.theme_use('clam')
-        style.configure('TFrame', background='#f0f0f0')
-        style.configure('TLabel', background='#f0f0f0', foreground='#333333', font=('Helvetica', 10))
-        style.configure('Header.TLabel', font=('Helvetica', 16, 'bold'), foreground='#333333')
-        style.configure('TButton', font=('Helvetica', 10), background='#007AFF', foreground='white', borderwidth=0)
+        style.theme_use('classic')
+        style.configure('TFrame', background='#d9d9d9')
+        style.configure('TLabel', background='#d9d9d9', foreground='#000000', font=('Helvetica', 10))
+        style.configure('Header.TLabel', font=('Helvetica', 14, 'bold'), foreground='#000000')
+        style.configure('TButton', font=('Helvetica', 10), background='#e0e0e0', foreground='#000000', borderwidth=1, relief='raised')
         style.map('TButton', 
-                  foreground=[('active', 'white'), ('disabled', '#ccc')], 
-                  background=[('active', '#005BBB'), ('disabled', '#ccc')])
+                  foreground=[('active', 'black'), ('disabled', 'gray')], 
+                  background=[('active', '#c0c0c0'), ('disabled', '#a0a0a0')])
 
         # Создаём UI на основе вкладок
         self.notebook = ttk.Notebook(self)
@@ -536,6 +536,10 @@ class DesktopOrganizerGUI(tk.Tk):
             return int(node_id.replace("entry_", ""))
         return -1
 
+def main():
+    """Основная функция запуска приложения"""
+    app = DesktopOrganizerGUI()
+    app.mainloop()
+
 if __name__ == "__main__":
-    gui = DesktopOrganizerGUI()
-    gui.mainloop()
+    main()

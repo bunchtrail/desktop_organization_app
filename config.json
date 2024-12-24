@@ -1,18 +1,11 @@
 {
+    "check_interval": 300,
+    "organized_files_dir": "C:\\Users\\lolen\\Рабочий стол\\Organized",
+    "folder_shortcut_mode": "others",
     "sorting_rules": [
         {
             "type": "extension",
-            "extension": ".png",
-            "folder": "Images"
-        },
-        {
-            "type": "extension",
-            "extension": ".jpg",
-            "folder": "Images"
-        },
-        {
-            "type": "extension",
-            "extension": ".docx",
+            "extension": ".txt",
             "folder": "Documents"
         },
         {
@@ -22,32 +15,65 @@
         },
         {
             "type": "extension",
-            "extension": ".cmd",
-            "folder": "Scripts"
+            "extension": ".doc",
+            "folder": "Documents"
         },
         {
             "type": "extension",
-            "extension": ".txt",
-            "folder": "TextFiles"
+            "extension": ".docx",
+            "folder": "Documents"
         },
         {
             "type": "extension",
-            "extension": ".exe",
-            "folder": "Executables"
+            "extension": ".jpg",
+            "folder": "Images"
         },
         {
             "type": "extension",
-            "extension": ".xcf",
-            "folder": "GIMP_Files"
+            "extension": ".png",
+            "folder": "Images"
         },
         {
             "type": "extension",
-            "extension": ".bp1",
-            "folder": "BP1_Files"
+            "extension": ".jpeg",
+            "folder": "Images"
+        },
+        {
+            "type": "extension",
+            "extension": ".mp3",
+            "folder": "Music"
+        },
+        {
+            "type": "extension",
+            "extension": ".wav",
+            "folder": "Music"
+        },
+        {
+            "type": "extension",
+            "extension": ".mp4",
+            "folder": "Videos"
+        },
+        {
+            "type": "extension",
+            "extension": ".avi",
+            "folder": "Videos"
+        },
+        {
+            "type": "extension",
+            "extension": ".zip",
+            "folder": "Archives"
+        },
+        {
+            "type": "extension",
+            "extension": ".rar",
+            "folder": "Archives"
+        },
+        {
+            "type": "extension",
+            "extension": ".7z",
+            "folder": "Archives"
         }
     ],
-    "check_interval": 300,
     "log_level": "INFO",
-    "destination_dir": "D:/",
-    "folder_shortcut_mode": "others"
+    "destination_dir": "C:/trash"
 }

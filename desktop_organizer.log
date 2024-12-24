@@ -1,72 +1,123 @@
-2024-11-02 14:05:37,603 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:05:37,604 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 14:05:37,624 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 14:05:37,627 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:05:37,628 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:05:37,629 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:05:37,629 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:05:37,629 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 14:09:31,300 [INFO] Файл откатан: D:/desktop_organizer\Images\1649877820187722213.png -> C:\Users\79121\Desktop\1649877820187722213.png
-2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Documents\Morgan_N__JavaScript_dlya_detej.pdf -> C:\Users\79121\Desktop\Morgan_N__JavaScript_dlya_detej.pdf
-2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-07-01_17-06-04.jpg -> C:\Users\79121\Desktop\photo_2024-07-01_17-06-04.jpg
-2024-11-02 14:09:31,306 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-09-12_18-17-34.jpg -> C:\Users\79121\Desktop\photo_2024-09-12_18-17-34.jpg
-2024-11-02 14:09:31,308 [INFO] Файл откатан: D:/desktop_organizer\Images\photo_2024-09-15_18-12-29.jpg -> C:\Users\79121\Desktop\photo_2024-09-15_18-12-29.jpg
-2024-11-02 14:09:31,309 [INFO] Файл откатан: D:/desktop_organizer\Images\Zombatar_1.jpg -> C:\Users\79121\Desktop\Zombatar_1.jpg
-2024-11-02 14:09:41,393 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:09:41,394 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 14:09:41,398 [INFO] Moved file 'Morgan_N__JavaScript_dlya_detej.pdf' to 'D:/desktop_organizer\Documents'
-2024-11-02 14:09:41,398 [INFO] Moved file 'photo_2024-07-01_17-06-04.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:09:41,399 [INFO] Moved file 'photo_2024-09-12_18-17-34.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:09:41,399 [INFO] Moved file 'photo_2024-09-15_18-12-29.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:09:41,400 [INFO] Moved file 'Zombatar_1.jpg' to 'D:/desktop_organizer\Images'
-2024-11-02 14:09:41,400 [INFO] Finished sorting process. 6 files moved.
-2024-11-02 14:12:00,315 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:12:00,315 [INFO] No files were moved. Desktop is already organized.
-2024-11-02 14:15:13,263 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:15:13,267 [INFO] Moved file '1649877820187722213.xcf' to 'D:/desktop_organizer\GIMP_Files'
-2024-11-02 14:15:13,282 [INFO] Moved file 'CookieCheats.txt' to 'D:/desktop_organizer\TextFiles'
-2024-11-02 14:15:13,284 [INFO] Moved file 'ctrld.txt' to 'D:/desktop_organizer\TextFiles'
-2024-11-02 14:15:13,286 [INFO] Moved file 'polina_v2.38.bp1' to 'D:/desktop_organizer\BP1_Files'
-2024-11-02 14:15:13,288 [INFO] Finished sorting process. 4 files moved.
-2024-11-02 14:27:53,149 [INFO] Файл откатан: D:/desktop_organizer\Images\1649877820187722213.png -> C:\Users\79121\Desktop\1649877820187722213.png
-2024-11-02 14:28:00,187 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:28:00,188 [INFO] Moved file '1649877820187722213.png' to 'D:/desktop_organizer\Images'
-2024-11-02 14:28:00,189 [INFO] Finished sorting process. 1 files moved.
-2024-11-02 14:34:28,076 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:34:28,130 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:34:28,143 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:34:28,147 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:34:28,757 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:34:28,757 [INFO] Finished sorting process. Moved 4 item(s).
-2024-11-02 14:35:22,784 [INFO] Объект откатан: D:/desktop_organizer\Others\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
-2024-11-02 14:40:29,017 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:40:29,057 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:40:29,057 [INFO] Finished sorting process. Moved 1 item(s).
-2024-11-02 14:40:46,154 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:40:46,206 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:40:46,207 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:40:46,210 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:40:46,586 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:40:46,586 [INFO] Finished sorting process. Moved 4 item(s).
-2024-11-02 14:41:25,725 [INFO] Объект откатан: D:/desktop_organizer\Others\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
-2024-11-02 14:41:25,725 [INFO] Объект откатан: D:/desktop_organizer\Others\desktop.ini -> C:\Users\79121\Desktop\desktop.ini
-2024-11-02 14:41:25,729 [INFO] Объект откатан: D:/desktop_organizer\Others\json -> C:\Users\79121\Desktop\json
-2024-11-02 14:41:27,223 [INFO] Объект откатан: D:/desktop_organizer\Others\pvm_root -> C:\Users\79121\Desktop\pvm_root
-2024-11-02 14:41:30,348 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:41:30,403 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Folder_CPLMouseFix'
-2024-11-02 14:41:30,408 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Folder_desktop.ini'
-2024-11-02 14:41:30,415 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Folder_json'
-2024-11-02 14:41:31,405 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Folder_pvm_root'
-2024-11-02 14:41:31,408 [INFO] Finished sorting process. Moved 4 item(s).
-2024-11-02 14:41:49,586 [INFO] Объект откатан: D:/desktop_organizer\Folder_CPLMouseFix\CPLMouseFix -> C:\Users\79121\Desktop\CPLMouseFix
-2024-11-02 14:41:49,587 [INFO] Объект откатан: D:/desktop_organizer\Folder_desktop.ini\desktop.ini -> C:\Users\79121\Desktop\desktop.ini
-2024-11-02 14:41:49,592 [INFO] Объект откатан: D:/desktop_organizer\Folder_json\json -> C:\Users\79121\Desktop\json
-2024-11-02 14:41:50,530 [INFO] Объект откатан: D:/desktop_organizer\Folder_pvm_root\pvm_root -> C:\Users\79121\Desktop\pvm_root
-2024-11-02 14:41:54,272 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 14:41:54,331 [INFO] Moved folder 'CPLMouseFix' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:41:54,332 [INFO] Moved file 'desktop.ini' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:41:54,335 [INFO] Moved folder 'json' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:41:54,982 [INFO] Moved folder 'pvm_root' to 'D:/desktop_organizer\Others' (Others)
-2024-11-02 14:41:54,982 [INFO] Finished sorting process. Moved 4 item(s).
-2024-11-02 15:03:24,890 [INFO] Starting sorting process. Organizer directory: D:/desktop_organizer
-2024-11-02 15:03:24,891 [INFO] No files or folders were moved. Desktop is already organized.
+2024-12-24 23:26:08,049 [INFO] Начало процесса сортировки...
+2024-12-24 23:26:08,056 [INFO] Загружена конфигурация: {'check_interval': 300, 'organized_files_dir': 'C:\\Users\\lolen\\Рабочий стол\\Organized', 'folder_shortcut_mode': 'others', 'sorting_rules': [{'type': 'extension', 'extension': '.txt', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.pdf', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.doc', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.docx', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.jpg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.png', 'folder': 'Images'}, {'type': 'extension', 'extension': '.jpeg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.mp3', 'folder': 'Music'}, {'type': 'extension', 'extension': '.wav', 'folder': 'Music'}, {'type': 'extension', 'extension': '.mp4', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.avi', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.zip', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.rar', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.7z', 'folder': 'Archives'}], 'log_level': 'INFO', 'destination_dir': 'C:/trash/desktop_organizer'}
+2024-12-24 23:26:08,057 [INFO] Найден путь к рабочему столу через WinAPI: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:26:08,057 [INFO] Путь к рабочему столу: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:26:08,057 [INFO] Директория для организованных файлов: C:\Users\lolen\Рабочий стол\Organized
+2024-12-24 23:27:28,324 [INFO] Начало процесса сортировки...
+2024-12-24 23:27:28,324 [INFO] Загружена конфигурация: {'check_interval': 300, 'organized_files_dir': 'C:\\Users\\lolen\\Рабочий стол\\Organized', 'folder_shortcut_mode': 'others', 'sorting_rules': [{'type': 'extension', 'extension': '.txt', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.pdf', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.doc', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.docx', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.jpg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.png', 'folder': 'Images'}, {'type': 'extension', 'extension': '.jpeg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.mp3', 'folder': 'Music'}, {'type': 'extension', 'extension': '.wav', 'folder': 'Music'}, {'type': 'extension', 'extension': '.mp4', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.avi', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.zip', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.rar', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.7z', 'folder': 'Archives'}], 'log_level': 'INFO', 'destination_dir': 'C:/trash/desktop_organizer'}
+2024-12-24 23:27:28,325 [INFO] Найден путь к рабочему столу через WinAPI: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:27:28,326 [INFO] Путь к рабочему столу: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:27:28,326 [INFO] Директория для организованных файлов: C:\Users\lolen\Рабочий стол\Organized
+2024-12-24 23:27:28,326 [INFO] Найдено файлов на рабочем столе: 12
+2024-12-24 23:27:28,326 [INFO] Файлы на рабочем столе: ['1.png', '4_course', '7 лаба СПО', 'controld.exe', 'ctrl-d.txt', 'Cursor.lnk', 'Dead by Daylight.url', 'desktop.ini', "Don't Starve Together.url", 'Postman.lnk', 'Vyatsu.lnk', 'Лекции.lnk']
+2024-12-24 23:27:28,326 [INFO] Загружено правил сортировки: 14
+2024-12-24 23:27:28,326 [INFO] Режим обработки папок: others
+2024-12-24 23:27:28,326 [INFO] Обработка элемента: 1.png
+2024-12-24 23:27:28,326 [INFO] Найдено правило для файла 1.png: {'type': 'extension', 'extension': '.png', 'folder': 'Images'}
+2024-12-24 23:27:28,327 [INFO] Создана папка назначения: C:\Users\lolen\Рабочий стол\Organized\Images
+2024-12-24 23:27:28,327 [INFO] Перемещен файл/папка: C:\Users\lolen\OneDrive\Рабочий стол\1.png -> C:\Users\lolen\Рабочий стол\Organized\Images\1.png
+2024-12-24 23:27:28,363 [INFO] Создан ярлык: C:\Users\lolen\OneDrive\Рабочий стол\1.png.lnk -> C:\Users\lolen\Рабочий стол\Organized\Images\1.png
+2024-12-24 23:27:28,364 [INFO] Операция успешно записана в историю
+2024-12-24 23:27:28,364 [INFO] Обработка элемента: 4_course
+2024-12-24 23:27:28,364 [INFO] Не найдено правило для 4_course
+2024-12-24 23:27:28,365 [INFO] Обработка папки без правила: 4_course
+2024-12-24 23:27:28,365 [INFO] Создана папка Others: C:\Users\lolen\Рабочий стол\Organized\Others
+2024-12-24 23:27:28,366 [INFO] Перемещена папка без правила: C:\Users\lolen\OneDrive\Рабочий стол\4_course -> C:\Users\lolen\Рабочий стол\Organized\Others\4_course
+2024-12-24 23:27:28,372 [INFO] Создан ярлык: C:\Users\lolen\OneDrive\Рабочий стол\4_course.lnk -> C:\Users\lolen\Рабочий стол\Organized\Others\4_course
+2024-12-24 23:27:28,372 [INFO] Операция с папкой успешно записана в историю
+2024-12-24 23:27:28,372 [INFO] Обработка элемента: 7 лаба СПО
+2024-12-24 23:27:28,373 [INFO] Не найдено правило для 7 лаба СПО
+2024-12-24 23:27:28,373 [INFO] Обработка папки без правила: 7 лаба СПО
+2024-12-24 23:27:28,374 [INFO] Перемещена папка без правила: C:\Users\lolen\OneDrive\Рабочий стол\7 лаба СПО -> C:\Users\lolen\Рабочий стол\Organized\Others\7 лаба СПО
+2024-12-24 23:27:28,381 [INFO] Создан ярлык: C:\Users\lolen\OneDrive\Рабочий стол\7 лаба СПО.lnk -> C:\Users\lolen\Рабочий стол\Organized\Others\7 лаба СПО
+2024-12-24 23:27:28,381 [INFO] Операция с папкой успешно записана в историю
+2024-12-24 23:27:28,381 [INFO] Обработка элемента: controld.exe
+2024-12-24 23:27:28,382 [INFO] Не найдено правило для controld.exe
+2024-12-24 23:27:28,382 [INFO] Обработка элемента: ctrl-d.txt
+2024-12-24 23:27:28,382 [INFO] Найдено правило для файла ctrl-d.txt: {'type': 'extension', 'extension': '.txt', 'folder': 'Documents'}
+2024-12-24 23:27:28,382 [INFO] Создана папка назначения: C:\Users\lolen\Рабочий стол\Organized\Documents
+2024-12-24 23:27:28,383 [INFO] Перемещен файл/папка: C:\Users\lolen\OneDrive\Рабочий стол\ctrl-d.txt -> C:\Users\lolen\Рабочий стол\Organized\Documents\ctrl-d.txt
+2024-12-24 23:27:28,388 [INFO] Создан ярлык: C:\Users\lolen\OneDrive\Рабочий стол\ctrl-d.txt.lnk -> C:\Users\lolen\Рабочий стол\Organized\Documents\ctrl-d.txt
+2024-12-24 23:27:28,389 [INFO] Операция успешно записана в историю
+2024-12-24 23:27:28,389 [INFO] Обработка элемента: Cursor.lnk
+2024-12-24 23:27:28,389 [INFO] Пропущен файл Cursor.lnk (ярлык или специальный файл)
+2024-12-24 23:27:28,389 [INFO] Обработка элемента: Dead by Daylight.url
+2024-12-24 23:27:28,390 [INFO] Не найдено правило для Dead by Daylight.url
+2024-12-24 23:27:28,390 [INFO] Обработка элемента: desktop.ini
+2024-12-24 23:27:28,390 [INFO] Не найдено правило для desktop.ini
+2024-12-24 23:27:28,390 [INFO] Обработка элемента: Don't Starve Together.url
+2024-12-24 23:27:28,391 [INFO] Не найдено правило для Don't Starve Together.url
+2024-12-24 23:27:28,391 [INFO] Обработка элемента: Postman.lnk
+2024-12-24 23:27:28,391 [INFO] Пропущен файл Postman.lnk (ярлык или специальный файл)
+2024-12-24 23:27:28,391 [INFO] Обработка элемента: Vyatsu.lnk
+2024-12-24 23:27:28,391 [INFO] Пропущен файл Vyatsu.lnk (ярлык или специальный файл)
+2024-12-24 23:27:28,391 [INFO] Обработка элемента: Лекции.lnk
+2024-12-24 23:27:28,391 [INFO] Пропущен файл Лекции.lnk (ярлык или специальный файл)
+2024-12-24 23:27:28,392 [INFO] История успешно сохранена
+2024-12-24 23:27:28,392 [INFO] История обновлена. Добавлено 4 операций
+2024-12-24 23:33:13,787 [INFO] Начало процесса сортировки...
+2024-12-24 23:33:13,795 [INFO] Загружена конфигурация: {'check_interval': 300, 'organized_files_dir': 'C:\\Users\\lolen\\Рабочий стол\\Organized', 'folder_shortcut_mode': 'others', 'sorting_rules': [{'type': 'extension', 'extension': '.txt', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.pdf', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.doc', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.docx', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.jpg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.png', 'folder': 'Images'}, {'type': 'extension', 'extension': '.jpeg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.mp3', 'folder': 'Music'}, {'type': 'extension', 'extension': '.wav', 'folder': 'Music'}, {'type': 'extension', 'extension': '.mp4', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.avi', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.zip', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.rar', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.7z', 'folder': 'Archives'}], 'log_level': 'INFO', 'destination_dir': 'C:/trash'}
+2024-12-24 23:33:13,795 [INFO] Найден путь к рабочему столу через WinAPI: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:33:13,795 [INFO] Путь к рабочему столу: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:33:13,795 [INFO] Директория для организованных файлов: C:\Users\lolen\Рабочий стол\Organized
+2024-12-24 23:33:13,795 [INFO] Найдено файлов на рабочем столе: 12
+2024-12-24 23:33:13,795 [INFO] Файлы на рабочем столе: ['1.png.lnk', '4_course.lnk', '7 лаба СПО.lnk', 'controld.exe', 'ctrl-d.txt.lnk', 'Cursor.lnk', 'Dead by Daylight.url', 'desktop.ini', "Don't Starve Together.url", 'Postman.lnk', 'Vyatsu.lnk', 'Лекции.lnk']
+2024-12-24 23:33:13,795 [INFO] Загружено правил сортировки: 14
+2024-12-24 23:33:13,795 [INFO] Режим обработки папок: others
+2024-12-24 23:33:13,795 [INFO] Обработка элемента: 1.png.lnk
+2024-12-24 23:33:13,795 [INFO] Пропущен файл 1.png.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: 4_course.lnk
+2024-12-24 23:33:13,796 [INFO] Пропущен файл 4_course.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: 7 лаба СПО.lnk
+2024-12-24 23:33:13,796 [INFO] Пропущен файл 7 лаба СПО.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: controld.exe
+2024-12-24 23:33:13,796 [INFO] Не найдено правило для controld.exe
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: ctrl-d.txt.lnk
+2024-12-24 23:33:13,796 [INFO] Пропущен файл ctrl-d.txt.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: Cursor.lnk
+2024-12-24 23:33:13,796 [INFO] Пропущен файл Cursor.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,796 [INFO] Обработка элемента: Dead by Daylight.url
+2024-12-24 23:33:13,797 [INFO] Не найдено правило для Dead by Daylight.url
+2024-12-24 23:33:13,797 [INFO] Обработка элемента: desktop.ini
+2024-12-24 23:33:13,797 [INFO] Не найдено правило для desktop.ini
+2024-12-24 23:33:13,797 [INFO] Обработка элемента: Don't Starve Together.url
+2024-12-24 23:33:13,797 [INFO] Не найдено правило для Don't Starve Together.url
+2024-12-24 23:33:13,797 [INFO] Обработка элемента: Postman.lnk
+2024-12-24 23:33:13,798 [INFO] Пропущен файл Postman.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,798 [INFO] Обработка элемента: Vyatsu.lnk
+2024-12-24 23:33:13,798 [INFO] Пропущен файл Vyatsu.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,798 [INFO] Обработка элемента: Лекции.lnk
+2024-12-24 23:33:13,798 [INFO] Пропущен файл Лекции.lnk (ярлык или специальный файл)
+2024-12-24 23:33:13,798 [INFO] Нет файлов для перемещения или все файлы уже организованы
+2024-12-24 23:37:10,569 [INFO] Начало процесса сортировки...
+2024-12-24 23:37:24,527 [INFO] Начало процесса сортировки...
+2024-12-24 23:45:58,123 [INFO] Начало процесса сортировки...
+2024-12-24 23:45:58,123 [INFO] Загружена конфигурация: {'check_interval': 300, 'organized_files_dir': 'C:\\Users\\lolen\\Рабочий стол\\Organized', 'folder_shortcut_mode': 'others', 'sorting_rules': [{'type': 'extension', 'extension': '.txt', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.pdf', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.doc', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.docx', 'folder': 'Documents'}, {'type': 'extension', 'extension': '.jpg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.png', 'folder': 'Images'}, {'type': 'extension', 'extension': '.jpeg', 'folder': 'Images'}, {'type': 'extension', 'extension': '.mp3', 'folder': 'Music'}, {'type': 'extension', 'extension': '.wav', 'folder': 'Music'}, {'type': 'extension', 'extension': '.mp4', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.avi', 'folder': 'Videos'}, {'type': 'extension', 'extension': '.zip', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.rar', 'folder': 'Archives'}, {'type': 'extension', 'extension': '.7z', 'folder': 'Archives'}], 'log_level': 'INFO', 'destination_dir': 'C:/trash'}
+2024-12-24 23:45:58,125 [INFO] Найден путь к рабочему столу через WinAPI: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:45:58,125 [INFO] Путь к рабочему столу: C:\Users\lolen\OneDrive\Рабочий стол
+2024-12-24 23:45:58,125 [INFO] Директория для организованных файлов: C:\Users\lolen\Рабочий стол\Organized
+2024-12-24 23:45:58,125 [INFO] Найдено файлов на рабочем столе: 10
+2024-12-24 23:45:58,125 [INFO] Файлы на рабочем столе: ['4_course.lnk', '7 лаба СПО.lnk', 'controld.exe', 'ctrl-d.txt.lnk', 'Cursor.lnk', 'Dead by Daylight.url', 'desktop.ini', "Don't Starve Together.url", 'Vyatsu.lnk', 'Лекции.lnk']
+2024-12-24 23:45:58,125 [INFO] Загружено правил сортировки: 14
+2024-12-24 23:45:58,125 [INFO] Режим обработки папок: others
+2024-12-24 23:45:58,125 [INFO] Обработка элемента: 4_course.lnk
+2024-12-24 23:45:58,125 [INFO] Пропущен файл 4_course.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,126 [INFO] Обработка элемента: 7 лаба СПО.lnk
+2024-12-24 23:45:58,126 [INFO] Пропущен файл 7 лаба СПО.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,126 [INFO] Обработка элемента: controld.exe
+2024-12-24 23:45:58,126 [INFO] Не найдено правило для controld.exe
+2024-12-24 23:45:58,126 [INFO] Обработка элемента: ctrl-d.txt.lnk
+2024-12-24 23:45:58,126 [INFO] Пропущен файл ctrl-d.txt.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,126 [INFO] Обработка элемента: Cursor.lnk
+2024-12-24 23:45:58,126 [INFO] Пропущен файл Cursor.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,126 [INFO] Обработка элемента: Dead by Daylight.url
+2024-12-24 23:45:58,126 [INFO] Не найдено правило для Dead by Daylight.url
+2024-12-24 23:45:58,127 [INFO] Обработка элемента: desktop.ini
+2024-12-24 23:45:58,127 [INFO] Не найдено правило для desktop.ini
+2024-12-24 23:45:58,127 [INFO] Обработка элемента: Don't Starve Together.url
+2024-12-24 23:45:58,127 [INFO] Не найдено правило для Don't Starve Together.url
+2024-12-24 23:45:58,128 [INFO] Обработка элемента: Vyatsu.lnk
+2024-12-24 23:45:58,128 [INFO] Пропущен файл Vyatsu.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,128 [INFO] Обработка элемента: Лекции.lnk
+2024-12-24 23:45:58,128 [INFO] Пропущен файл Лекции.lnk (ярлык или специальный файл)
+2024-12-24 23:45:58,128 [INFO] Нет файлов для перемещения или все файлы уже организованы
